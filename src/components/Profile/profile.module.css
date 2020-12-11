@@ -1,0 +1,87 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+.profile {
+  width: 250px;
+  height: 350px;
+  margin: 0 auto;
+  text-align: center;
+  border: 1px solid rgb(219, 225, 245);
+  box-shadow: 0 0 2px rgb(82, 74, 74);
+}
+
+.description {
+  width: 250px;
+  height: auto;
+}
+
+.avatar {
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 1px solid rgb(233, 219, 219);
+}
+
+.name {
+  font-size: 16px;
+  font-weight: bold;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-bottom: 20px;
+}
+
+.tag {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 14px;
+  color: rgb(153, 153, 153);
+  margin-bottom: 20px;
+}
+
+.location {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 14px;
+  color: rgb(153, 153, 153);
+  margin-bottom: 20px;
+}
+
+.stats {
+  width: 249px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  color: rgb(153, 153, 153);
+  background-color: #f3f6f9;
+}
+
+li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: solid 1px #d8e0ea;
+  width: 83px;
+  height: 75px;
+  padding: 20px;
+}
+
+.label {
+  font-size: 12px;
+  color: rgb(153, 153, 153);
+}
+
+.quantity {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
+}
