@@ -1,3 +1,12 @@
+Задание 1 - Профиль социальной сети
+
+Задание 2 - Секция статистики
+
+Задание 3 - Список друзей
+
+Задание 4 - История транзакций
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
