@@ -16,6 +16,13 @@ html {
   text-align: center;
   width: 300px;
   margin: 0 auto;
+  border-radius: 10px;
+}
+
+.item:hover {
+  border-radius: 10px solid rgb(59, 62, 255);
+  background-color: rgb(247, 247, 247);
+  box-shadow: inset 0px 2px 2px rgb(99, 99, 99);
 }
 
 .statusOnline,
